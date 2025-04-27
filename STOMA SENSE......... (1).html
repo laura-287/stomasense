@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stoma Sense App Features</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #4CAF50, #8BC34A);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .feature {
+      background: white;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .feature h2 {
+      margin-top: 0;
+      color: #4CAF50;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Stoma Sense App Features</h1>
+    <p>Smart Plant Care & Tracking</p>
+  </header>
+  <div class="container">
+    <div class="feature">
+      <h2>1. Welcome & Login</h2>
+      <p>Splash screen, sign up/login via email or social, and support for Arabic, English, Chinese, and French.</p>
+    </div>
+    <div class="feature">
+      <h2>2. Home Dashboard</h2>
+      <p>Display popular plant categories with info, photos, and interactive options (like, comment, rate).</p>
+    </div>
+    <div class="feature">
+      <h2>3. Agricultural Videos</h2>
+      <p>Videos in multiple languages, comment box with interaction and rating options.</p>
+    </div>
+    <div class="feature">
+      <h2>4. Upload Plant Images</h2>
+      <p>Upload only plant photos, delete option, and automatic plant recognition.</p>
+    </div>
+    <div class="feature">
+      <h2>5. Plant Growth Tracking</h2>
+      <p>Track plant age, size, and care needs with visual growth comparison and multi-plant support.</p>
+    </div>
+    <div class="feature">
+      <h2>6. Plant Search Page</h2>
+      <p>Smart search bar with category filters and detailed plant information.</p>
+    </div>
+    <div class="feature">
+      <h2>7. Categorized Plant Info</h2>
+      <p>Organized by type, includes images, descriptions, and external links.</p>
+    </div>
+    <div class="feature">
+      <h2>8. App Customization</h2>
+      <p>Choose themes, languages, fonts, with support for offline use and dark mode.</p>
+    </div>
+    <div class="feature">
+      <h2>9. User Profile</h2>
+      <p>View and edit user information, profile photo, and logout option.</p>
+    </div>
+    <div class="feature">
+      <h2>10. Sidebar Navigation</h2>
+      <p>Quick navigation through a drawer-style menu.</p>
+    </div>
+    <div class="feature">
+      <h2>11. Ads Integration</h2>
+      <p>AdMob and StartApp integration with non-intrusive ad placement.</p>
+    </div>
+    <div class="feature">
+      <h2>12. Instant Translation</h2>
+      <p>Real-time content translation to support global users.</p>
+    </div>
+  </div>
+  <footer>
+    <p>Created by EleenaTayyem | Stoma Sense &copy; 2025</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoma Sense - Plant Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="stoma-sense-icon.png" alt="Stoma Sense Logo">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#video">Video Library</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <h1>Welcome to Stoma Sense</h1>
+            <p>Your personalized plant tracker and growth assistant.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Track plant growth and health</li>
+            <li>Video library for plant care</li>
+            <li>Multi-language support</li>
+            <li>Interactive comments and feedback</li>
+            <li>Plant image upload and sharing</li>
+        </ul>
+    </section>
+
+    <!-- Video Library Section -->
+    <section id="video">
+        <h2>Video Library</h2>
+        <p>Watch educational videos on plant care:</p>
+        <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">Watch our latest video on plant care</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>For inquiries or feedback, reach us here:</p>
+        <p>Email: support@stomasense.com</p>
+        <p><strong>Developed by:</strong> Your Name or Logo</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Stoma Sense. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: #4CAF50; /* Green */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home {
+    background-color: #8B4513; /* Brown */
+    padding: 50px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 36px;
+    color: white;
+}
+
+#home p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Features Section */
+#features {
+    padding: 50px;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#features ul {
+    list-style: none;
+}
+
+#features ul li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Video Section */
+#video {
+    padding: 50px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#video h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#video a {
+    font-size: 18px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#video a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #8B4513;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
+
+  // Initialize Firebase
+  const app = firebase.initializeApp(firebaseConfig);
+  const storage = firebase.storage();
+  const db = firebase.firestore();
+</script>
+<!-- Upload Plant Image -->
+<input type="file" id="plantImage" name="plantImage" accept="image/*">
+<button onclick="uploadImage()">Upload Image</button>
+function uploadImage() {
+  const file = document.getElementById('plantImage').files[0];
+  if (!file) {
+    alert("Please select an image.");
+    return;
+  }
+
+  const storageRef = storage.ref('plants/' + file.name);
+  const uploadTask = storageRef.put(file);
+
+  uploadTask.on('state_changed', 
+    (snapshot) => {
+      // Progress handling (optional)
+    }, 
+    (error) => {
+      console.error("Upload failed:", error);
+    }, 
+    () => {
+      // Upload completed successfully
+      uploadTask.snapshot.ref.getDownloadURL().then((downloadURL) => {
+        console.log('File available at', downloadURL);
+        // You can now save the URL to Firestore if needed
+      });
+    }
+  );
+}
+function uploadImage() {
+  const file = document.getElementById('plantImage').files[0];
+  if (!file) {
+    alert("Please select an image.");
+    return;
+  }
+
+  const storageRef = storage.ref('plants/' + file.name);
+  const uploadTask = storageRef.put(file);
+
+  uploadTask.on('state_changed', 
+    (snapshot) => {
+      // Progress handling (optional)
+    }, 
+    (error) => {
+      console.error("Upload failed:", error);
+    }, 
+    () => {
+      // Upload completed successfully
+      uploadTask.snapshot.ref.getDownloadURL().then((downloadURL) => {
+        console.log('File available at', downloadURL);
+        // You can now save the URL to Firestore if needed
+      });
+    }
+  );
+}
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
+
+  // Initialize Firebase
+  const app = firebase.initializeApp(firebaseConfig);
+  const storage = firebase.storage();
+  const db = firebase.firestore();
+</script>
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
+
+  // Initialize Firebase
+  const app = firebase.initializeApp(firebaseConfig);
+  const storage = firebase.storage();
+  const db = firebase.firestore();
+</script>
+<!-- Upload Plant Image -->
+<input type="file" id="plantImage" name="plantImage" accept="image/*">
+<button onclick="uploadImage()">Upload Image</button>
+function uploadImage() {
+  const file = document.getElementById('plantImage').files[0];
+  if (!file) {
+    alert("Please select an image.");
+    return;
+  }
+
+  const storageRef = storage.ref('plants/' + file.name);
+  const uploadTask = storageRef.put(file);
+
+  uploadTask.on('state_changed', 
+    (snapshot) => {
+      // Progress handling (optional)
+    }, 
+    (error) => {
+      console.error("Upload failed:", error);
+    }, 
+    () => {
+      // Upload completed successfully
+      uploadTask.snapshot.ref.getDownloadURL().then((downloadURL) => {
+        console.log('File available at', downloadURL);
+        // You can now save the URL to Firestore if needed
+      });
+    }
+  );
+}
+<!-- Comment Section -->
+<div id="commentsSection">
+  <textarea id="commentText" placeholder="Add a comment..."></textarea>
+  <button onclick="submitComment()">Submit Comment</button>
+  <div id="commentList"></div>
+</div>
+function submitComment() {
+  const commentText = document.getElementById('commentText').value;
+  if (commentText === "") {
+    alert("Please enter a comment.");
+    return;
+  }
+
+  const commentData = {
+    text: commentText,
+    timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+  };
+
+  // Save comment to Firestore
+  db.collection('comments').add(commentData)
+    .then(() => {
+      document.getElementById('commentText').value = ''; // Clear the input
+      loadComments(); // Reload comments
+    })
+    .catch((error) => {
+      console.error("Error adding comment:", error);
+    });
+}
+
+function loadComments() {
+  db.collection('comments').orderBy('timestamp', 'desc').get()
+    .then((querySnapshot) => {
+      const commentsContainer = document.getElementById('commentList');
+      commentsContainer.innerHTML = ''; // Clear current comments
+      querySnapshot.forEach((doc) => {
+        const comment = doc.data();
+        const commentElement = document.createElement('div');
+        commentElement.innerHTML = `
+          <p>${comment.text}</p>
+          <button onclick="deleteComment('${doc.id}')">Delete</button>
+          <button onclick="likeComment('${doc.id}')">Like</button>
+        `;
+        commentsContainer.appendChild(commentElement);
+      });
+    });
+}
+
+function deleteComment(commentId) {
+  db.collection('comments').doc(commentId).delete()
+    .then(() => {
+      loadComments(); // Reload comments after deletion
+    })
+    .catch((error) => {
+      console.error("Error deleting comment:", error);
+    });
+}
+
+function likeComment(commentId) {
+  const commentRef = db.collection('comments').doc(commentId);
+  commentRef.update({
+    likes: firebase.firestore.FieldValue.increment(1)
+  }).then(() => {
+    loadComments(); // Reload comments after liking
+  }).catch((error) => {
+    console.error("Error liking comment:", error);
+  });
+}
+<!-- Plant Growth Tracking -->
+<input type="text" id="plantName" placeholder="Enter Plant Name">
+<input type="number" id="growthStage" placeholder="Growth Stage (e.g. 1 for seedling)">
+<input type="date" id="growthDate">
+<button onclick="trackPlantGrowth()">Track Growth</button>
+function trackPlantGrowth() {
+  const plantName = document.getElementById('plantName').value;
+  const growthStage = document.getElementById('growthStage').value;
+  const growthDate = document.getElementById('growthDate').value;
+
+  if (!plantName || !growthStage || !growthDate) {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  const growthData = {
+    plantName: plantName,
+    growthStage: growthStage,
+    growthDate: growthDate,
+    timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+  };
+
+  // Save plant growth data to Firestore
+  db.collection('plant_growth').add(growthData)
+    .then(() => {
+      alert("Growth data saved successfully!");
+    })
+    .catch((error) => {
+      console.error("Error saving growth data:", error);
+    });
+}
+<select id="languageSelect" onchange="changeLanguage()">
+  <option value="en">English</option>
+  <option value="ar">العربية</option>
+  <option value="fr">Français</option>
+  <option value="zh">中文</option>
+</select>
+let translations = {
+  en: {
+    welcome: "Welcome to Stoma Sense",
+    upload: "Upload Image",
+    comment: "Add a comment...",
+    // باقي الترجمات هنا
+  },
+  ar: {
+    welcome: "مرحبًا بك في Stoma Sense",
+    upload: "رفع الصورة",
+    comment: "أضف تعليقًا...",
+    // باقي الترجمات هنا
+  },
+  // الترجمات لبقية اللغات
+};
+
+function changeLanguage() {
+  const selectedLanguage = document.getElementById('languageSelect').value;
+  document.getElementById('welcomeText').innerText = translations[selectedLanguage].welcome;
+  document.getElementById('uploadText').innerText = translations[selectedLanguage].upload;
+  document.getElementById('commentText').innerText = translations[selectedLanguage].comment;
+  // تحديث باقي العناصر
+}
+<!-- Login Form -->
+<div id="loginForm">
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+  <button onclick="register()">Register</button>
+</div>
+const auth = firebase.auth();
+
+function login() {
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+
+  auth.signInWithEmailAndPassword(email, password)
+    .then((userCredential) => {
+      const user = userCredential.user;
+      alert("Welcome " + user.email);
+      // توجيه المستخدم إلى الصفحة الرئيسية
+    })
+    .catch((error) => {
+      console.error("Error signing in: ", error);
+      alert("Login failed");
+    });
+}
+
+function register() {
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+
+  auth.createUserWithEmailAndPassword(email, password)
+    .then((userCredential) => {
+      const user = userCredential.user;
+      alert("Account created: " + user.email);
+      // توجيه المستخدم إلى الصفحة الرئيسية
+    })
+    .catch((error) => {
+      console.error("Error creating account: ", error);
+      alert("Registration failed");
+    });
+}
+const provider = new firebase.auth.GoogleAuthProvider();
+
+function loginWithGoogle() {
+  auth.signInWithPopup(provider)
+    .then((result) => {
+      const user = result.user;
+      alert("Welcome " + user.displayName);
+      // توجيه المستخدم إلى الصفحة الرئيسية
+    })
+    .catch((error) => {
+      console.error("Error during Google sign-in: ", error);
+    });
+}
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-storage.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
+
+  const app = firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+  const storage = firebase.storage();
+</script>
+<p>Developed by: <strong>Your Name or Logo</strong></p>
+// firebase-config.js
+const firebaseConfig = {
+  apiKey: "ضع هنا مفتاح API",
+  authDomain: "project-id.firebaseapp.com",
+  projectId: "project-id",
+  storageBucket: "project-id.appspot.com",
+  messagingSenderId: "رقم",
+  appId: "رقم التطبيق"
+};
+
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+const db = firebase.firestore();
+const storage = firebase.storage();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Search</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #4CAF50;
+    }
+
+    /* Search Box Styles */
+    #plantSearch {
+      padding: 10px;
+      font-size: 1rem;
+      width: 60%;
+      max-width: 400px;
+      border: 2px solid #4CAF50;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    /* Button Styles */
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    /* Search Results Container */
+    #searchResults {
+      margin-top: 20px;
+      font-size: 1rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Search for Plants</h2>
+
+  <!-- Search Box -->
+  <input type="text" id="plantSearch" placeholder="Search for a plant...">
+  <button onclick="searchPlant()">Search</button>
+
+  <!-- Display Search Results -->
+  <div id="searchResults"></div>
+
+  <script>
+    function searchPlant() {
+      const query = document.getElementById('plantSearch').value.trim();
+
+      if (query === "") {
+        alert("Please enter a search term.");
+        return;
+      }
+
+      // Construct Google Search URL
+      const searchURL = `https://www.google.com/search?q=plant+${query}`;
+
+      // Open Google Search results in a new tab
+      window.open(searchURL, '_blank');
+    }
+  </script>
+
+</body>
+</html>
